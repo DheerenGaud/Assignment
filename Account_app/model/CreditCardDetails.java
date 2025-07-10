@@ -1,0 +1,26 @@
+package com.aurionpro.payments.model;
+
+public class CreditCardDetails  implements PaymentDetails{
+	private String cvv ;
+	private String Expiry ;
+	private String cardnNumber ;
+	public String getCvv() {
+		return cvv;
+	}
+	public void setCvv(String cvv) {
+		this.cvv = cvv;
+	}
+	public String getExpiry() {
+		return Expiry;
+	}
+	public void setExpiry(String expiry) {
+		Expiry = expiry;
+	}
+	public String getCardnNumber() {
+		return cardnNumber;
+	}
+	public void setCardnNumber(String cardnNumber) {
+		this.cardnNumber = cardnNumber;
+	} 
+}
+	
